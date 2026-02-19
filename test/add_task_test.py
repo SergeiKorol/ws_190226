@@ -8,5 +8,5 @@ def test_add():
 
 
     
-    assert response.status_code == 202
+    assert response.status_code == 206
     assert response_body['completed'] == False
