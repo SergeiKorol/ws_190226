@@ -13,3 +13,4 @@ def test_todo():
     response = requests.get(f'https://todo-app-sky.herokuapp.com/{id}')
     assert response.status_code == 200
     assert response.json()['title']=="generated-1"
+    # Исправление замечаний
