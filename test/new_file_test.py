@@ -1,5 +1,5 @@
 import requests
-
+#Добавить задачу
 def add_task():
     body = {"title":"generated","completed":False}
     response = requests.post("https://sky-todo-list.herokuapp.com/", json=body)
